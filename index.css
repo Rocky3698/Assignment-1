@@ -59,4 +59,35 @@ nav{
 }
 .feature-section{
     text-align: center;
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px 80px 97px;
+    margin: 50px 0px 50px 0px;
+}
+.card{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: start;
+    width: 60%;
+}
+.bg-gradient-right{
+    background:linear-gradient(to right, rgba(255, 255, 255, 1.00),rgba(255, 255, 255, 0.00)) ;
+}
+.bg-gradient-left{
+    background:linear-gradient(to right, rgba(255, 255, 255, 0.00),rgba(255, 255, 255, 1.00)) ;
+}
+.gap-md{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.my-large{
+    margin: 25px 0px 35px 0px;
 }
