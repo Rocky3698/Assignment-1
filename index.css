@@ -5,20 +5,24 @@
 .btn-dark{
     background-color: rgba(13, 19, 33, 1.00);
     color: white;
-    font-size: 2rem;
-    padding: 15px;
-    border-radius: 10px;
-    border: 2px solid black;
-}
-.btn-white{
-    background-color: white;
-    padding: 10px;
     border-radius: 8px;
     border: 2px solid black;
     font-size: medium;
+    width: 208px;
+    height: 56px;
+}
+.btn-white{
+    background-color: white;
+    color: rgba(13, 19, 33, 1.00);
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: medium;
+    width: 180px;
+    height: 48px;
 }
 .flex{
     display: flex;
+    align-items: center;
 }
 .container{
     width: 80%;
@@ -39,4 +43,20 @@ nav{
 }
 .font-medium{
     font-size: medium;
+}
+.hero-section{
+    height: 65vh;
+    width: 100%;
+    background-image: url("./assets/Hero-bg.png");
+    object-fit: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.feature-section{
+    text-align: center;
 }
