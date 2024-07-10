@@ -1,3 +1,9 @@
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -11,6 +17,10 @@
     font-size: medium;
     width: 208px;
     height: 56px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-white {
@@ -21,11 +31,19 @@
     font-size: medium;
     width: 180px;
     height: 48px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-white:hover {
     background-color: black;
     color: white;
+}
+.btn-dark:hover {
+    background-color: white;
+    color: black;
 }
 
 .flex {
@@ -171,16 +189,19 @@ nav {
     text-align: center;
 }
 
-.bg-yellow-200{
+.bg-yellow-200 {
     background: rgba(255, 223, 0, 0.05);
 }
-.bg-blue-200{
+
+.bg-blue-200 {
     background: rgba(0, 76, 232, 0.05);
 }
-.bg-orange-200{
+
+.bg-orange-200 {
     background: rgba(255, 76, 30, 0.05);
 }
-.card-lg{
+
+.card-lg {
     text-align: start;
     display: flex;
     align-items: center;
@@ -190,26 +211,22 @@ nav {
     padding: 30px 20px 30px 20px;
     border-radius: 10px;
 }
-.next-target{
+
+.next-target {
     text-align: center;
     margin-top: 30px;
 }
-.scroll{
-    text-decoration: none;
-    border: 2px solid;
-    padding: 12px 15px 12px 15px;
-    font-size: 1.5rem;
-    border-radius: 8px;
-    color: white;
-    background-color: black;
-}
-.card-img{
+
+
+.card-img {
     width: 15%;
 }
-.card-content{
+
+.card-content {
     width: 80%;
 }
-.contact{
+
+.contact {
     background: url("/assets/handshake.jpg");
     background-position: center;
     border-radius: 10px;
@@ -222,38 +239,46 @@ nav {
     margin-bottom: 30px;
     width: 75%;
     margin-inline: auto;
+    text-align: center;
 }
-input{
+
+input {
     width: 350px;
     height: 40px;
     border-radius: 5px;
     border: none;
     outline: none;
+    padding-left: 8px;
 }
-.submit{
+
+.submit {
     padding: 8px;
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
     border: none;
 }
-.input-group{
+
+.input-group {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.submit:hover{
+
+.submit:hover {
     background-color: black;
     color: white;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: rgba(13, 19, 33, 0.03);
     padding: 10px 30px 10px 30px;
 }
-footer>div{
+
+footer>div {
     display: flex;
     gap: 15px;
 }
