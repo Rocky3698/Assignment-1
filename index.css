@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.btn-dark{
-    background-color: rgba(13, 19, 33, 1.00);
+
+.btn-dark {
+    background-color: rgba(13, 19, 33, 1);
     color: white;
     border-radius: 8px;
     border: 2px solid black;
@@ -11,46 +12,53 @@
     width: 208px;
     height: 56px;
 }
-.btn-white{
+
+.btn-white {
     background-color: white;
-    color: rgba(13, 19, 33, 1.00);
+    color: rgba(13, 19, 33, 1);
     border-radius: 8px;
     border: 2px solid black;
     font-size: medium;
     width: 180px;
     height: 48px;
-    
 }
-.btn-white:hover{
+
+.btn-white:hover {
     background-color: black;
     color: white;
 }
 
-.flex{
+.flex {
     display: flex;
     align-items: center;
 }
-.container{
+
+.container {
     width: 80%;
     margin-inline: auto;
 }
-.justify-around{
+
+.justify-around {
     justify-content: space-around;
 }
-nav{
+
+nav {
     margin: 30px 0px 30px 0px;
-    
 }
-.font-bold{
+
+.font-bold {
     font-weight: 900;
 }
-.font-large{
+
+.font-large {
     font-size: 2rem;
 }
-.font-medium{
+
+.font-medium {
     font-size: medium;
 }
-.hero-section{
+
+.hero-section {
     height: 65vh;
     width: 100%;
     background-image: url("./assets/Hero-bg.png");
@@ -63,82 +71,141 @@ nav{
     align-items: center;
     gap: 24px;
 }
-.feature-section{
+
+.feature-section {
     text-align: center;
     background-color: rgba(13, 19, 33, 0.02);
     padding: 80px 97px 80px 97px;
     margin: 50px 0px 50px 0px;
 }
-.card{
+
+.card {
     display: flex;
     padding: 40px;
     align-items: center;
     justify-content: space-around;
-    
 }
-.card-body{
+
+.card-body {
     display: flex;
     flex-direction: column;
     gap: 30px;
     text-align: start;
     width: 60%;
 }
-.bg-gradient-right{
-    background:linear-gradient(to right, rgba(255, 255, 255, 1.00),rgba(255, 255, 255, 0.00)) ;
+
+.bg-gradient-right {
+    background: linear-gradient(to right,
+            rgba(255, 255, 255, 1),
+            rgba(255, 255, 255, 0));
 }
-.bg-gradient-left{
-    background:linear-gradient(to right, rgba(255, 255, 255, 0.00),rgba(255, 255, 255, 1.00)) ;
+
+.bg-gradient-left {
+    background: linear-gradient(to right,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 1));
 }
-.gap-md{
+
+.gap-md {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.my-large{
+
+.my-large {
     margin: 25px 0px 35px 0px;
 }
-.my-medium{
+
+.my-medium {
     margin: 25px 0px 25px 0px;
 }
-.my-sm{
+
+.my-sm {
     margin: 10px 0px 10px 0px;
 }
 
-.video-frame{
+.video-frame {
     border-radius: 16px;
     border: 0.5px solid rgb(204, 201, 201);
     padding: 20px;
     background-color: rgba(13, 19, 33, 0.02);
     width: fit-content;
 }
-.video-frame>iframe{
+
+.video-frame>iframe {
     border-radius: 16px;
 }
-.inspiration-section{
+
+.inspiration-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
-.skill-card{
-    width: 28%;
+
+.skill-card {
+    width: 23%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: start;
     align-items: start;
-    border: 1px solid red;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 16px;
+    text-align: start;
 }
-.card-group{
+
+.card-group {
+    width: 90%;
+    margin-inline: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
     flex-wrap: wrap;
-    gap: 10px; 
+    margin-top: 25px;
 }
-.target-section>.current-target{
+
+.target-section>.current-target {
     margin-top: 30px;
     text-align: center;
+}
+
+.bg-yellow-200{
+    background: rgba(255, 223, 0, 0.05);
+}
+.bg-blue-200{
+    background: rgba(0, 76, 232, 0.05);
+}
+.bg-orange-200{
+    background: rgba(255, 76, 30, 0.05);
+}
+.card-lg{
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin: 20px;
+    border: 1px solid rgb(146, 138, 138);
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+}
+.next-target{
+    text-align: center;
+    margin-top: 30px;
+}
+.scroll{
+    text-decoration: none;
+    border: 2px solid;
+    padding: 12px 15px 12px 15px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+}
+.card-img{
+    width: 15%;
+}
+.card-content{
+    width: 80%;
 }
